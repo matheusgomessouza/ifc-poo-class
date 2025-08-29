@@ -1,0 +1,38 @@
+package management;
+
+public class Computer extends Eletronics {
+    private String format;
+    private String[] composition;
+    private String type;
+
+    public Computer(Integer id, String name, String location, String brand, String model, String color, String[] connections, String format, String[] composition, String type) {
+        super(id, name, location, brand, model, color, connections);
+        this.format = format;
+        this.composition = composition;
+        this.type = type;
+    }
+
+    public String getFormat() {
+        return format;
+    }
+
+    public void setFormat(String format) {
+        this.format = format;
+    }
+
+    public String[] getComposition() {
+        return composition;
+    }
+
+    public void setComposition(String[] composition) {
+        this.composition = composition;
+    }
+
+    public String getType() {
+        return type;
+    }
+
+    public void setType(String type) {
+        this.type = type;
+    }
+}
