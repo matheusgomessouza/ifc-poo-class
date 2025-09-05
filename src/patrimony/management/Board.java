@@ -1,6 +1,6 @@
-package management;
+package patrimony.management;
 
-public class Board extends Forniture {
+public class Board extends Furniture {
     private String type;
     private Integer width;
     private Integer height;

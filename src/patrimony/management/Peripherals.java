@@ -1,4 +1,4 @@
-package management;
+package patrimony.management;
 
 public class Peripherals {
     private String functionality;

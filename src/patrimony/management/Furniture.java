@@ -1,10 +1,10 @@
-package management;
+package patrimony.management;
 
-public class Forniture extends Patrimony {
+public class Furniture extends Patrimony {
     private String brand;
     private String color;
 
-    public Forniture(Integer id, String name, String location, String brand, String color) {
+    public Furniture(Integer id, String name, String location, String brand, String color) {
         super(id, name, location);
         this.brand = brand;
         this.color = color;

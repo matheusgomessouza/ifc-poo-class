@@ -1,12 +1,12 @@
-package management;
+package patrimony.management;
 
-public class Eletronics extends Patrimony {
+public class Electronics extends Patrimony {
     private String brand;
     private String model;
     private String color;
     private String[] connections;
 
-    public Eletronics(Integer id, String name, String location, String brand, String model, String color, String[] connections) {
+    public Electronics(Integer id, String name, String location, String brand, String model, String color, String[] connections) {
         super(id, name, location);
         this.brand = brand;
         this.model = model;

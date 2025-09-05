@@ -1,6 +1,6 @@
-package management;
+package patrimony.management;
 
-public class AirConditioning extends Eletronics{
+public class AirConditioning extends Electronics{
     private Integer voltage;
     private Integer britishThermalUnit;
 

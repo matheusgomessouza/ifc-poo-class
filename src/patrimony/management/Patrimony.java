@@ -1,4 +1,4 @@
-package management;
+package patrimony.management;
 
 public class Patrimony {
     private Integer id;

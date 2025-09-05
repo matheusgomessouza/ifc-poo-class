@@ -1,6 +1,6 @@
-package management;
+package patrimony.management;
 
-public class Table extends Forniture {
+public class Table extends Furniture {
     private String format;
     private Integer legsQuantity;
     private String[] materials;

@@ -1,10 +1,11 @@
-package management;
+package patrimony.management;
 
-public class Mouse {
+public class Mouse extends Peripherals {
     private Integer dpi;
     private String connectionType;
 
-    public Mouse(Integer dpi, String connectionType) {
+    public Mouse(Integer dpi, String connectionType, String functionality) {
+        super(functionality);
         this.dpi = dpi;
         this.connectionType = connectionType;
     }

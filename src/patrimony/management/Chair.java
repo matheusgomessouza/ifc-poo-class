@@ -1,6 +1,6 @@
-package management;
+package patrimony.management;
 
-public class Chair extends Forniture {
+public class Chair extends Furniture {
     private Boolean hasWheels;
 
     public Chair(Integer id, String name, String location, String brand, String color, Boolean hasWheels) {

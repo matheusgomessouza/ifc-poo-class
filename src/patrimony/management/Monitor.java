@@ -1,10 +1,11 @@
-package management;
+package patrimony.management;
 
-public class Monitor {
+public class Monitor extends Peripherals {
     private String[] resolution;
     private Integer voltage;
 
-    public Monitor(String[] resolution, Integer voltage) {
+    public Monitor(String[] resolution, Integer voltage, String functionality) {
+        super(functionality);
         this.resolution = resolution;
         this.voltage = voltage;
     }

@@ -1,6 +1,6 @@
-package management;
+package patrimony.management;
 
-public class Projector extends Eletronics{
+public class Projector extends Electronics{
     private Integer luminosity;
     private String[] resolution;
 
