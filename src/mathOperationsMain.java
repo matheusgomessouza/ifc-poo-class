@@ -1,6 +1,3 @@
-import auto.Car;
-import auto.Motorcycle;
-import auto.Vehicle;
 import math.*;
 
 void main(String[] args) {
