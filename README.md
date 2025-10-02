@@ -4,16 +4,9 @@
 
 ---
 
-**✨ Funcionalidades / Features**
-
-- Items management
-- Item CRUD (CREATE, READ, UPDATE, DELETE)
-
----
-
 **💻 Projeto / Project**
 
-This is developed in order to create an application to manage IFC patrimony items 
+This is developed in order to implement O.O.P concepts
 
 ---
 
