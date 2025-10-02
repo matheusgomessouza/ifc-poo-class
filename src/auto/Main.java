@@ -1,8 +1,7 @@
-import auto.Car;
-import auto.Motorcycle;
-import auto.Vehicle;
+package auto;
 
-void main() {
+public class Main {
+    static void main() {
         Vehicle vehicle = new Vehicle();
         vehicle.setFuelCapacity(10);
         vehicle.setDistancePerLitre(12);
@@ -20,4 +19,5 @@ void main() {
         moto.drive(200);
         moto.showTraveledDistance();
         moto.showRange();
+    }
 }

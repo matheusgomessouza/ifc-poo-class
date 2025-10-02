@@ -1,8 +1,8 @@
 package math.geometry;
 
-public class Triangle extends Shape {
-    private double base;
-    private double height;
+public class Triangle extends AbstractShape {
+    private final double base;
+    private final double height;
 
     public Triangle(double base, double height) {
         super();

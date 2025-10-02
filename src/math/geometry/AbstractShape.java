@@ -1,9 +1,9 @@
 package math.geometry;
 
-public abstract class Shape {
+public abstract class AbstractShape {
     private static int objectCount = 0;
 
-    public Shape() {
+    public AbstractShape() {
         objectCount++;
     }
 

@@ -1,7 +1,7 @@
 package math.geometry;
 
-public class Square extends Shape {
-    private double side;
+public class Square extends AbstractShape {
+    private final double side;
 
     public Square(double side) {
         super();
