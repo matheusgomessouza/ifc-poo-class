@@ -51,5 +51,6 @@ public class Main {
         counter.increment(10);
         counter.decrement();
         counter.decrement(10);
+        counter.reset();
     }
 }

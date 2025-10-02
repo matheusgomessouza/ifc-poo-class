@@ -30,4 +30,9 @@ public class Counter extends AbstractCounter {
     public Counter(int counter) {
         this.counter = counter;
     }
+
+    public void reset() {
+        counter = 0;
+        System.out.println("Counter zeroed: " + counter);
+    }
 }
