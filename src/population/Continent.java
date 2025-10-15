@@ -2,7 +2,7 @@ package population;
 import java.util.*;
 
 
-class Continent {
+public class Continent {
     String name;
     List<Country> countries = new ArrayList<>();
 

@@ -2,7 +2,7 @@ package population;
 import java.util.*;
 
 
-class State {
+public class State {
     String name;
     List<City> cities = new ArrayList<>();
 

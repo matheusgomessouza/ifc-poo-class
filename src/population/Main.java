@@ -1,7 +1,7 @@
 package population;
 
 public class Main {
-    public static void main(String[] args) {
+     static void main() {
         City blumenau = new City("Blumenau", 519.8);
         City joinville = new City("Joinville", 1120.0);
 
@@ -16,12 +16,13 @@ public class Main {
         southAmerica.addCountry(brazil);
 
         Person matheus = new Person("Matheus", blumenau);
-        Person ana = new Person("Ana", blumenau);
 
         System.out.println("Population of Blumenau: " + blumenau.getPopulation());
         matheus.migrate(joinville);
         System.out.println("Population of Blumenau after migration: " + blumenau.getPopulation());
         System.out.println("Population of Joinville: " + joinville.getPopulation());
         System.out.println("Total population of Brazil: " + brazil.getTotalPopulation());
+        System.out.println("Total population of South America: " + southAmerica.getTotalPopulation());
+        System.out.println("Area of South America: " + southAmerica.getTotalArea());
     }
 }

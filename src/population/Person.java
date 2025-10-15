@@ -1,6 +1,6 @@
 package population;
 
-class Person {
+public class Person {
     String name;
     City city;
 

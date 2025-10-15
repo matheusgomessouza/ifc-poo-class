@@ -1,7 +1,7 @@
 package population;
 import java.util.*;
 
-class City {
+public class City {
     String name;
     double area;
     List<Person> residents = new ArrayList<>();
