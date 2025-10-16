@@ -29,18 +29,6 @@ public class Book implements InterfacePrintable {
         this.pages = Collections.unmodifiableList(copy);
     }
 
-    public String getTitle() {
-        return title;
-    }
-
-    public String getAuthor() {
-        return author;
-    }
-
-    public List<List<String>> getPages() {
-        return pages;
-    }
-
     @Override
     public String returnText() {
         StringBuilder sb = new StringBuilder();
