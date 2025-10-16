@@ -72,5 +72,11 @@ public class Main {
         System.out.println("Before: " + Arrays.toString(nums));
         BubbleSort.bubbleSort(nums);
         System.out.println("After: " + Arrays.toString(nums));
+
+        Calculator calculator = new Calculator(1, 2);
+        System.out.println(calculator.div());
+        System.out.println(calculator.sub());
+        System.out.println(calculator.sum());
+        System.out.println(calculator.multi());
     }
 }
