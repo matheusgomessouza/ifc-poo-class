@@ -1,5 +1,7 @@
 package math;
 
+import java.util.Arrays;
+
 public class Main {
     static void main() {
         MathOperation add = new Addition();
@@ -52,5 +54,23 @@ public class Main {
         counter.decrement();
         counter.decrement(10);
         counter.reset();
+
+        IntegerNumber a = new IntegerNumber(5);
+        IntegerNumber b = new IntegerNumber(10);
+        System.out.println(a.compareTo(b));
+        System.out.println(b.compareTo(a));
+        System.out.println(a.compareTo(new IntegerNumber(5)));
+
+        IntegerNumber[] nums = {
+                new IntegerNumber(7),
+                new IntegerNumber(2),
+                new IntegerNumber(9),
+                new IntegerNumber(3),
+                new IntegerNumber(5)
+        };
+
+        System.out.println("Before: " + Arrays.toString(nums));
+        BubbleSort.bubbleSort(nums);
+        System.out.println("After: " + Arrays.toString(nums));
     }
 }
