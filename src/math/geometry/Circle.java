@@ -1,6 +1,6 @@
 package math.geometry;
 
-public class Circle extends AbstractShape {
+public class Circle extends AbstractShape implements InterfaceCalculateArea {
     private final double radius;
 
     public Circle(double radius) {
@@ -11,5 +11,10 @@ public class Circle extends AbstractShape {
     @Override
     public double calculateArea() {
         return (int) Math.round(Math.PI * radius * radius);
+    }
+
+    @Override
+    public void returnArea() {
+        System.out.println("Circle area is: " + Math.round(Math.PI * radius * radius));
     }
 }

@@ -1,6 +1,6 @@
 package math.geometry;
 
-public class Triangle extends AbstractShape {
+public class Triangle extends AbstractShape implements InterfaceCalculateArea {
     private final double base;
     private final double height;
 
@@ -13,6 +13,11 @@ public class Triangle extends AbstractShape {
     @Override
     public double calculateArea() {
         return (base * height) / 2;
+    }
+
+    @Override
+    public void returnArea() {
+        System.out.println("Triangle area is: " + (base * height) / 2);
     }
 }
 
